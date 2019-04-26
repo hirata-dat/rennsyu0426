@@ -14,7 +14,20 @@ namespace rennsyu0426
     {
         public Form1()
         {
+         
             InitializeComponent();
+
+            button1.Text = "押された";
+            button2.Left = 0;
+            button3.
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+            MessageBox.Show("こんにちは");
+        
         }
     }
 }
